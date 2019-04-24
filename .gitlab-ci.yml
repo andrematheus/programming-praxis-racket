@@ -1,0 +1,5 @@
+image: andreroquem/racket-build
+
+test:
+  script:
+  - raco test src/*.rkt
