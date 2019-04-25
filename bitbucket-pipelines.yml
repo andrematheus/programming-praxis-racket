@@ -1,7 +1,0 @@
-image: andreroquem/racket-build
-
-pipelines:
-  default:
-    - step:
-        script:
-          - raco test src/*.rkt
